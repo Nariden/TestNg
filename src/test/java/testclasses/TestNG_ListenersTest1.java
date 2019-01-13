@@ -22,6 +22,8 @@ public class TestNG_ListenersTest1 {
     @Test
     public void testMethod1() {
         System.out.println("Code in testMethod1");
+
+        System.out.println("Hi Kamil");
         Assert.assertTrue(true);
     }
 
