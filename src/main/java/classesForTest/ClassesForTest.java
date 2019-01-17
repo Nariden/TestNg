@@ -1,5 +1,6 @@
 package classesForTest;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ClassesForTest {
@@ -14,9 +15,11 @@ public class ClassesForTest {
         String a = "Hello you guys! I'm glad that we are doing git! Nargiza";
         StringBuilder b= new StringBuilder(a);
         System.out.println(b.reverse().toString());
-
+        System.out.println("=========================================================");
 
         System.out.println(reversedStr("Hey,team! Today is a good day!"));
+
+
 
 
         int [][] anyName={{4,46,7},{7,5,33,77},{5,6},{7}};
@@ -37,10 +40,28 @@ public class ClassesForTest {
 
 
         }
+        System.out.println("\n==========ArrayList and it's methods===========================");
+
+
+        ArrayList<String>hello=new ArrayList();
+
+        hello.add("Kamil");
+        hello.add("Jaza");
+        hello.add("Aizhana");
+        hello.add("Ajara");
+        hello.add("Elif abla");
+
+
+        System.out.println(hello.contains("Nargiza"));
+      boolean tf=  hello.isEmpty();
+        System.out.println(tf);
+        //System.out.println(hello.iterator());
+
+hello.add("Nargiza" );
+
+        System.out.println(hello);
 
     }
-
-
 
 
 
