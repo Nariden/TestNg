@@ -50,6 +50,7 @@ public class ClassesForTest {
         hello.add("Aizhana");
         hello.add("Ajara");
         hello.add("Elif abla");
+        hello.add("Kutmanai");
 
 
         System.out.println(hello.contains("Nargiza"));
