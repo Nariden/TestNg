@@ -21,6 +21,7 @@ public class AllCustomListeners implements IInvokedMethodListener, ITestListener
     @Override
     public void onTestStart(ITestResult result) {
         // When test method starts
+        System.out.println("There are some changes made by Zhazgul");
         System.out.println("onTestStart -> Test Name: " + result.getName());
     }
 

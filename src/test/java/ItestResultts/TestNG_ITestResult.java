@@ -15,6 +15,9 @@ public class TestNG_ITestResult {
     @Test
     public void testMethod2() {
         System.out.println("Running -> testMethod2");
+
+
+        System.out.println("Team work is the best !   ");
         Assert.assertTrue(true);
     }
 
