@@ -49,5 +49,10 @@ public class ParallelTestWithDifferentBrowser {
     public void cleanUp() {
         driver.quit();
     }
+
+
+
+
+
 }
 

@@ -15,6 +15,11 @@ public class Soft_Assert {
         System.out.println("Pass one");
         sa.assertEquals(sum,9);
         sa.assertAll();
+
+
+        System.out.println("Today is Jan,14,2019 . Checked by Nargiza" );
+
+
     }
     }
 
