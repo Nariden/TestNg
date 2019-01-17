@@ -1,5 +1,7 @@
 package classesForTest;
 
+import java.util.Arrays;
+
 public class ClassesForTest {
 
 
@@ -16,8 +18,27 @@ public class ClassesForTest {
 
         System.out.println(reversedStr("Hey,team! Today is a good day!"));
 
-    }
 
+        int [][] anyName={{4,46,7},{7,5,33,77},{5,6},{7}};
+
+
+
+        for(int i =0; i <anyName.length; i ++){
+
+            System.out.println();
+            for(int k=0; k<anyName[i].length; k++){
+
+                System.out.print(anyName[i][k]+" ");
+
+
+            }
+
+
+
+
+        }
+
+    }
 
 
 
